@@ -1,19 +1,16 @@
 @import url('reset.css');
-
 @import url('widgets.css');
-
 @import url('social.css');
-
 @import url('shortcodes.css');
-
 @import url('comments.css');
-
 @import url('forms.css');
 /*
 * Folder v1.0
 *
 */
-/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* IMPORT ------------------------------------------------------------*/
+/* Vars ----------------------------------------------------*/
+/* Mixins ----------------------------------------------------*/
+/* IMPORT ------------------------------------------------------------*/
 /* GENERAL ------------------------------------------------------------*/
 .cf:after,
 .cf:before {
@@ -103,7 +100,8 @@ h6 {
 #logo:hover {
   opacity: 0.8;
 }
-/* ENTRY CONTENT ----------------------------------------------------*/.entry-content .heading {
+/* ENTRY CONTENT ----------------------------------------------------*/
+.entry-content .heading {
   margin-bottom: 1.5em;
 }
 /* COMBO NAVIGATION ------------------------------------------------------------*/
@@ -183,7 +181,6 @@ h6 {
 /* HEADER ------------------------------------------------------------*/
 header .wrapper {
   /* SLIDER ------------------------------------------------------------*/
-
 }
 header .wrapper #home-slider {
   margin-bottom: -73px;
@@ -200,7 +197,8 @@ header .wrapper #home-slider {
 body.home #main {
   padding-top: 120px;
 }
-/* HEADLINE ----------------------------------------------------*/#headline {
+/* HEADLINE ----------------------------------------------------*/
+#headline {
   margin-bottom: 52px;
   font-family: 'Voltaire', sans-serif;
   font-size: 48px;
@@ -209,7 +207,8 @@ body.home #main {
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   padding-top: 0px;
 }
-/* MASTHEAD ----------------------------------------------------*/.masthead {
+/* MASTHEAD ----------------------------------------------------*/
+.masthead {
   margin-bottom: 35px;
   font-family: 'Voltaire', sans-serif;
   font-size: 48px;
@@ -219,7 +218,8 @@ body.home #main {
   border-bottom: 1px solid #ccc;
   padding-bottom: 22px;
 }
-/* FILTERED ITEMS ----------------------------------------------------*/.isotope-item {
+/* FILTERED ITEMS ----------------------------------------------------*/
+.isotope-item {
   z-index: 2;
 }
 .isotope-hidden.isotope-item {
@@ -246,7 +246,6 @@ body.home #main {
   width: 965px;
   margin-bottom: 60px;
   /* Fixes shadow and margin right */
-
   padding-left: 5px;
   padding-top: 5px;
   margin-left: -5px;
@@ -296,7 +295,8 @@ body.home #main {
   display: block;
   margin: 10px 0px;
 }
-/* PAGE ----------------------------------------------------*/#page-content,
+/* PAGE ----------------------------------------------------*/
+#page-content,
 #page-content-sb {
   position: relative;
   margin-top: 30px;
@@ -329,7 +329,8 @@ body.home #main {
   clear: right;
   margin-right: 0 !important;
 }
-/* PORTFOLIO ----------------------------------------------------*/#portfolio-content {
+/* PORTFOLIO ----------------------------------------------------*/
+#portfolio-content {
   position: relative;
   margin-top: 30px;
   margin-bottom: 0px;
@@ -374,7 +375,6 @@ body.home #main {
   float: right;
   width: 164px;
   /* 184 - 20*/
-
   min-height: 30px;
   margin-right: 20px;
   font-size: 14px;
@@ -395,7 +395,6 @@ body.home #main {
   float: left;
   width: 688px;
   /* 940 - (184 + 68) - 20*/
-
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 40px;
@@ -481,7 +480,7 @@ body.home #main {
 }
 .pager li a:hover,
 .pager li.active a {
-  background: #cb5432;
+  background: #748d56;
   color: #fff;
 }
 .pager a {
@@ -492,14 +491,15 @@ body.home #main {
   text-decoration: none;
   width: 20px;
   line-height: 20px;
-  color: #cb5432;
+  color: #748d56;
   background: #f1f1f1;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* CONTACT  ----------------------------------------------------*/#map {
+/* CONTACT  ----------------------------------------------------*/
+#map {
   width: 100%;
   height: 300px;
 }
@@ -702,7 +702,8 @@ body.single #posts-list article .box .meta {
 #sidebar li {
   margin-bottom: 7px;
 }
-/* RESPONSIVE VIDEO ----------------------------------------------------*/.video-container {
+/* RESPONSIVE VIDEO ----------------------------------------------------*/
+.video-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
@@ -718,7 +719,8 @@ body.single #posts-list article .box .meta {
   width: 100%;
   height: 100%;
 }
-/* SOCIAL BAR ----------------------------------------------------*/#social-bar {
+/* SOCIAL BAR ----------------------------------------------------*/
+#social-bar {
   display: block;
   float: right;
 }

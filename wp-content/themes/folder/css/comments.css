@@ -1,12 +1,13 @@
-/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* COMMENTS ------------------------------------------------------------*/
+/* Vars ----------------------------------------------------*/
+/* Mixins ----------------------------------------------------*/
+/* COMMENTS ------------------------------------------------------------*/
 #comments-wrap {
   padding-top: 40px;
   margin-bottom: 60px;
   /* COMMENTS PAGINATION ------------------------------------------------------------*/
-
 }
 #comments-wrap a {
-  color: #cb5432;
+  color: #748d56;
   text-decoration: none;
 }
 #comments-wrap .heading {
@@ -31,15 +32,12 @@
   margin: 0 0 18px;
   padding: 25px 0px 0px 0px;
   /* REPLY ------------------------------------------------------------*/
-
   /* CHILDREN ------------------------------------------------------------*/
-
 }
 #comments-wrap .commentlist .comment .comment-body {
   position: relative;
   margin-bottom: 20px;
   /* META ------------------------------------------------------------*/
-
 }
 #comments-wrap .commentlist .comment .comment-body .comment-author {
   color: #656360;
@@ -82,7 +80,7 @@
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
 }
 #comments-wrap .commentlist .comment .reply .comment-reply-link:hover {
-  color: #cb5432;
+  color: #748d56;
 }
 #comments-wrap .commentlist .comment .children {
   list-style-type: none;

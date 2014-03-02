@@ -1,46 +1,27 @@
-/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*/.entry-content {
+/* Vars ----------------------------------------------------*/
+/* Mixins ----------------------------------------------------*/
+.entry-content {
   /* DIVIDER -------------------------------------------------*/
-
   /* PRE ------------------------------------------------------------*/
-
   /* COLUMNS LAYOUT----------------------------------------------------------*/
-
   /* VIDEOS ------------------------------------------------------------*/
-
   /* DROPCAP ------------------------------------------------------------*/
-
   /* INFOBOXES ------------------------------------------------------------*/
-
   /* LISTS ------------------------------------------------------------*/
-
   /* PULLQUOTES ------------------------------------------------------------*/
-
   /* HIGHLIGHT ------------------------------------------------------------*/
-
   /* Link buttons ------------------------------------------------*/
-
   /* Link buttons red ------------------------------------------------*/
-
   /* Link buttons green ------------------------------------------------*/
-
   /* Link buttons blue ------------------------------------------------*/
-
   /* ACCORDION -------------------------------------------------*/
-
   /* TOGGLE -------------------------------------------------*/
-
   /* TABS -------------------------------------------------*/
-
   /* root element for tabs  */
-
   /* single tab */
-
   /* link inside the tab. uses a background image */
-
   /* when mouse enters the tab move the background image */
-
   /* active tab uses a class name "current". its highlight is also done by moving the background image. */
-
   /* initially all panes are hidden */
 }
 .entry-content .hr {
@@ -212,15 +193,14 @@
 .entry-content .theme-link-button {
   display: inline-block;
   padding: 10px;
-  background: #cb5432;
+  background: #748d56;
   color: #f8f5f2;
 }
 .entry-content .link-button {
   display: inline-block;
-  background-color: #cb5432;
+  background-color: #748d56;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fe8300), to(#c46500));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #fe8300, #c46500);
   background-image: -moz-linear-gradient(top, #fe8300, #c46500);
   background-image: -ms-linear-gradient(top, #fe8300, #c46500);
@@ -250,7 +230,6 @@
   background-color: #ff9627;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9627), to(#c46500));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #ff9627, #c46500);
   background-image: -moz-linear-gradient(top, #ff9627, #c46500);
   background-image: -ms-linear-gradient(top, #ff9627, #c46500);
@@ -276,7 +255,6 @@
   background-color: #e4504c;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e4504c), to(#a61b1b));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #e4504c, #a61b1b);
   background-image: -moz-linear-gradient(top, #e4504c, #a61b1b);
   background-image: -ms-linear-gradient(top, #e4504c, #a61b1b);
@@ -295,7 +273,6 @@
   background-color: #89cc54;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8380), to(#b40e0e));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #ff8380, #b40e0e);
   background-image: -moz-linear-gradient(top, #ff8380, #b40e0e);
   background-image: -ms-linear-gradient(top, #ff8380, #b40e0e);
@@ -307,7 +284,6 @@
   background-color: #7fbf4d;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#7fbf4d), to(#426825));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #7fbf4d, #426825);
   background-image: -moz-linear-gradient(top, #7fbf4d, #426825);
   background-image: -ms-linear-gradient(top, #7fbf4d, #426825);
@@ -326,7 +302,6 @@
   background-color: #89cc54;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#89cc54), to(#426825));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #89cc54, #426825);
   background-image: -moz-linear-gradient(top, #89cc54, #426825);
   background-image: -ms-linear-gradient(top, #89cc54, #426825);
@@ -338,7 +313,6 @@
   background-color: #97b2c9;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#97b2c9), to(#4e7da5));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #97b2c9, #4e7da5);
   background-image: -moz-linear-gradient(top, #97b2c9, #4e7da5);
   background-image: -ms-linear-gradient(top, #97b2c9, #4e7da5);
@@ -357,7 +331,6 @@
   background-color: #89cc54;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#89bde8), to(#3771a2));
   /* Saf4+, Chrome */
-
   background-image: -webkit-linear-gradient(top, #89bde8, #3771a2);
   background-image: -moz-linear-gradient(top, #89bde8, #3771a2);
   background-image: -ms-linear-gradient(top, #89bde8, #3771a2);

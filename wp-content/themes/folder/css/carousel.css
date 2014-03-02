@@ -1,4 +1,8 @@
-/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* Carousel def  ----------------------------------------------------*//* Carousel Horizontal ----------------------------------------------------*/.carousel-holder {
+/* Vars ----------------------------------------------------*/
+/* Mixins ----------------------------------------------------*/
+/* Carousel def  ----------------------------------------------------*/
+/* Carousel Horizontal ----------------------------------------------------*/
+.carousel-holder {
   margin-bottom: 20px;
 }
 .carousel-holder .carousel-heading {
@@ -34,7 +38,6 @@
 .jcarousel-skin-folder .jcarousel-container-horizontal {
   width: 780px;
   /* 940 - 80 x 2 */
-
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 80px;
