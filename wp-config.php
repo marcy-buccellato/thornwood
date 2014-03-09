@@ -88,6 +88,8 @@ define('WP_SITEURL','http://www.thornwoodcabinetry.com');
 # Default is 'twentyeleven' which doesn't exist in the latest wordpress
 # install - I'm not sure where that is being set, but just override it here.
 define('WP_DEFAULT_THEME', 'twentyfourteen');
+define( 'WP_MEMORY_LIMIT', '96M' );
+define( 'WP_MAX_MEMORY_LIMIT', '256M' );
 ### END CUSTOM SETTINGS: EDITED BY MP
 
 /* That's all, stop editing! Happy blogging. */
