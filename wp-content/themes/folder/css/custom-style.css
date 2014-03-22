@@ -1,0 +1,63 @@
+body {
+    border: 1px solid red;
+}
+
+#logo {
+    margin-bottom: 0px;
+    height: 150px;
+    margin-bottom: 4px;
+}
+
+#logo img {
+    height: 140px;
+}
+
+header {
+    background-position: 0px 150px;
+}
+
+#home-slider {
+    border-left: 1.5px solid #E6EADC;
+    border-right: 1.5px solid #E6EADC;
+}
+
+/* background for content */
+.entry-content {
+    background: url(/img/content_bg.jpg) no-repeat;
+    width: 840px;
+    min-height: 343px;
+    padding: 35px 30px;
+}
+
+ /* Hide thumbnail slider nav under slider */
+header .wrapper #home-slider {
+    margin-bottom: 0;
+    height: 367px;
+}
+
+.lof-slidecontent {
+    height: 370px;
+}
+
+.navigator-wrapper {
+    display: none;
+}
+
+
+body.home #main {
+    padding-top: 0;
+}
+/*
+ - green
+HTML code:  #748D56
+RGB code:   R: 116 G: 141 B: 86
+HSV:    87.27° 39.01% 55.29%
+-brown
+HTML code:  #7C6A68
+RGB code:   R: 124 G: 106 B: 104
+HSV:    6° 16.13% 48.63%
+- light green
+HTML code:  #E6EADC
+RGB code:   R: 230 G: 234 B: 220
+HSV:    77.14° 5.98% 91.76%
+*/

@@ -186,3 +186,18 @@
 .lof-slidecontent:hover .button-control {
   opacity: 1;
 }
+
+/* CUSTOM CSS MP 3/22/14 */
+/* Hide thumbnail slider nav under slider */
+.lof-slidecontent .navigator-content .button-next,
+.lof-slidecontent .navigator-content .button-previous {
+    opacity: 1;
+    bottom: 0px;
+    z-index: 199;
+}
+.lof-slidecontent .navigator-content .button-next {
+    left: 910px;
+}
+.lof-slidecontent .navigator-content .button-previous {
+    left: 0px;
+}
