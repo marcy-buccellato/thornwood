@@ -1,7 +1,3 @@
-body {
-    border: 1px solid red;
-}
-
 #logo {
     margin-bottom: 0px;
     height: 150px;
@@ -22,11 +18,13 @@ header {
 }
 
 /* background for content */
-.entry-content {
-    background: url(/img/content_bg.jpg) no-repeat;
-    width: 840px;
-    min-height: 343px;
-    padding: 35px 30px;
+#main #page-content {
+    background: url(/wp-content/themes/folder/img/content_bg.jpg) no-repeat;
+}
+
+#main .wrapper  {
+  border-left: 1px solid #E6EADC;
+  border-right: 1px solid #E6EADC;
 }
 
  /* Hide thumbnail slider nav under slider */
