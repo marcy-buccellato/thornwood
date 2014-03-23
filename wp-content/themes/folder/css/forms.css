@@ -5,15 +5,15 @@
   margin-bottom: 10px;
   padding-top: 0px;
   padding-bottom: 10px;
-  border-top: 0px solid #656360;
-  border-bottom: 5px solid #656360;
+  border-top: 0px solid #7c6a68;
+  border-bottom: 5px solid #7c6a68;
 }
 #reply-title {
   margin-bottom: 10px;
   padding-top: 0px;
   padding-bottom: 10px;
-  border-top: 0px solid #656360;
-  border-bottom: 5px solid #656360;
+  border-top: 0px solid #7c6a68;
+  border-bottom: 5px solid #7c6a68;
 }
 #commentform,
 #contactForm,
@@ -131,7 +131,7 @@
   padding: 5px 10px;
   margin-bottom: 40px;
   background: rgba(0, 0, 0, 0.1);
-  color: #656360;
+  color: #7c6a68;
 }
 #commentform .form-allowed-tags {
   font-size: 12px;

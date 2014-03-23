@@ -42,9 +42,21 @@ header .wrapper #home-slider {
 }
 
 
+/* body */
 body.home #main {
     padding-top: 0;
+    background-image: none;
 }
+
+.multiplebgs #main {
+    /* no top of content dotted border */
+    background-image: none;
+}
+
+.entry-content {
+    padding-top: 17px;
+}
+
 /*
  - green
 HTML code:  #748D56

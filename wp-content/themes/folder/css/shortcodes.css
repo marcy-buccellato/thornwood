@@ -25,7 +25,7 @@
   /* initially all panes are hidden */
 }
 .entry-content .hr {
-  border-bottom: 5px solid #656360;
+  border-bottom: 5px solid #7c6a68;
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -34,7 +34,7 @@
   background: #fff;
   font-size: 14px;
   padding: 10px;
-  border: 2px dotted #656360;
+  border: 2px dotted #7c6a68;
   font-family: Consolas,monospace;
   word-break: break-word;
 }
@@ -60,7 +60,7 @@
   margin-right: 0 !important;
 }
 .entry-content .block-divider {
-  border-bottom: 1px solid #656360;
+  border-bottom: 1px solid #7c6a68;
   margin-bottom: 50px;
   padding-bottom: 50px;
 }
@@ -91,7 +91,7 @@
   padding: 0.2em 0.2em 0 0;
   float: left;
   display: block;
-  color: #656360;
+  color: #7c6a68;
 }
 .entry-content .dropcap.dark:first-letter {
   display: block;
@@ -100,8 +100,8 @@
   line-height: 40px;
   margin: 0 8px 0 0;
   padding: 10px 10px;
-  background: #656360;
-  color: #dcd2be;
+  background: #7c6a68;
+  color: #7c6a68;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -406,9 +406,9 @@
   padding: 0;
   margin: 2px 5px 0px 0px !important;
   list-style-image: none !important;
-  border-top: 1px solid #656360;
-  border-right: 1px solid #656360;
-  border-left: 1px solid #656360;
+  border-top: 1px solid #7c6a68;
+  border-right: 1px solid #7c6a68;
+  border-left: 1px solid #7c6a68;
 }
 .entry-content ul.tabs a {
   display: block;
@@ -429,7 +429,7 @@
 }
 .entry-content ul.tabs a {
   text-decoration: none;
-  color: #656360;
+  color: #7c6a68;
   background: #f8f5f2;
 }
 .entry-content ul.tabs a:active {
@@ -455,7 +455,7 @@
 .entry-content .panes > div {
   display: none;
   min-height: 200px;
-  border: 1px solid #656360;
+  border: 1px solid #7c6a68;
   padding: 15px;
   background: #f1f1f1;
 }
