@@ -1,6 +1,4 @@
-/* Vars ----------------------------------------------------*/
-/* Mixins ----------------------------------------------------*/
-/*
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//*
  * jQuery FlexSlider v1.8
  * http://flex.madebymufffin.com
  *
@@ -21,8 +19,7 @@
   list-style: none;
 }
 /* FlexSlider Necessary Styles
-*********************************/
-.flexslider {
+*********************************/.flexslider {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -170,7 +167,7 @@ html[xmlns] .slides {
 }
 .flex-control-nav li a:hover,
 .flex-control-nav li a.active {
-  background: #748d56;
+  background: #cb5432;
 }
 /* Project slider*/
 .project-slider {

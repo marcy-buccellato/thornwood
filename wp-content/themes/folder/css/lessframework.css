@@ -13,16 +13,13 @@
 -------------------------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
-/* Vars ----------------------------------------------------*/
-/* Mixins ----------------------------------------------------*/
-#comboNav {
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*/#comboNav {
   display: none;
 }
 .wrapper {
   width: 940px;
 }
-/* CAROUSEL Default ----------------------------------------------------*/
-#ch-holder {
+/* CAROUSEL Default ----------------------------------------------------*/#ch-holder {
   display: block;
 }
 #cv-holder {
@@ -36,26 +33,22 @@ px      68    160    252    344    436    528    620    712    804    896    */
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* GENERAL TABLET ----------------------------------------------------*/
-  .wrapper {
+  /* GENERAL TABLET ----------------------------------------------------*/.wrapper {
     width: 712px;
   }
-  /* NAV TABLET ----------------------------------------------------*/
-  #nav {
+  /* NAV TABLET ----------------------------------------------------*/#nav {
     display: block;
   }
   #comboNav {
     display: none;
   }
-  /* CAROUSEL TABLET ----------------------------------------------------*/
-  #ch-holder {
+  /* CAROUSEL TABLET ----------------------------------------------------*/#ch-holder {
     display: block;
   }
   #cv-holder {
     display: none;
   }
-  /* SLIDER TABLET ----------------------------------------------------*/
-  .lof-slidecontent,
+  /* SLIDER TABLET ----------------------------------------------------*/.lof-slidecontent,
   .main-slider-content {
     width: 712px;
     height: 367px;
@@ -87,17 +80,16 @@ px      68    160    252    344    436    528    620    712    */
   .main-slider-content .navigator-wrapper {
     width: 712px;
   }
-  /* FILTERED ITEMS TABLET ----------------------------------------------------*/
-  #filter-container {
+  /* FILTERED ITEMS TABLET ----------------------------------------------------*/#filter-container {
     width: 732px;
     /* 712 + 20 gap */
+  
   }
   #filter-container figure {
     width: 223px;
     margin-right: 20px;
   }
-  /* CAROUSEL TABLET ----------------------------------------------------*/
-  .jcarousel-skin-folder .jcarousel-container-horizontal {
+  /* CAROUSEL TABLET ----------------------------------------------------*/.jcarousel-skin-folder .jcarousel-container-horizontal {
     width: 585px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -117,13 +109,11 @@ px      68    160    252    344    436    528    620    712    */
     width: 63px;
     height: 100px;
   }
-  /*  PAGE TABLET----------------------------------------------------*/
-  #page-content-sb {
+  /*  PAGE TABLET----------------------------------------------------*/#page-content-sb {
     width: 460px;
     margin-right: 60px;
   }
-  /*  BLOG TABLET ----------------------------------------------------*/
-  #posts-list,
+  /*  BLOG TABLET ----------------------------------------------------*/#posts-list,
   body.single #posts-list {
     width: 460px;
     margin-right: 60px;
@@ -162,10 +152,10 @@ px      68    160    252    344    436    528    620    712    */
     width: 184px;
     margin-top: 30px;
   }
-  /* PORTFOLIO TABLET ----------------------------------------------------*/
-  #portfolio-content #project-box .info {
+  /* PORTFOLIO TABLET ----------------------------------------------------*/#portfolio-content #project-box .info {
     width: 140px;
     /* 160 - 20 */
+  
     padding-left: 20px;
     margin-right: 24px;
   }
@@ -181,8 +171,7 @@ px      68    160    252    344    436    528    620    712    */
   .related-projects figure .thumb {
     width: 160px;
   }
-  /* WIDGET COLS TABLET ----------------------------------------------------*/
-  .widget-cols > li {
+  /* WIDGET COLS TABLET ----------------------------------------------------*/.widget-cols > li {
     width: 160px;
     margin-right: 24px;
   }
@@ -201,8 +190,7 @@ px      68    160    252    */
   body {
     font-size: 14px;
   }
-  /* LOGO MOBILE ----------------------------------------------------*/
-  #logo {
+  /* LOGO MOBILE ----------------------------------------------------*/#logo {
     margin-left: 0px;
   }
   #logo a {
@@ -213,19 +201,16 @@ px      68    160    252    */
     display: block;
     margin: 0 auto;
   }
-  /* NAV MOBILE ----------------------------------------------------*/
-  #nav {
+  /* NAV MOBILE ----------------------------------------------------*/#nav {
     display: none;
   }
   #comboNav {
     display: block;
   }
-  /* HEADLINE MOBILE ----------------------------------------------------*/
-  #headline {
+  /* HEADLINE MOBILE ----------------------------------------------------*/#headline {
     font-size: 36px;
   }
-  /* CAROUSEL MOBILE ----------------------------------------------------*/
-  #ch-holder {
+  /* CAROUSEL MOBILE ----------------------------------------------------*/#ch-holder {
     display: none;
   }
   #cv-holder {
@@ -234,8 +219,7 @@ px      68    160    252    */
   .carousel-holder .carousel-heading span {
     margin: 0px 0px 22px 0px;
   }
-  /* SLIDER MOBILE ----------------------------------------------------*/
-  .lof-slidecontent,
+  /* SLIDER MOBILE ----------------------------------------------------*/.lof-slidecontent,
   .main-slider-content {
     width: 252px;
     height: 367px;
@@ -274,14 +258,13 @@ px      68    160    252    */
     width: 232px;
     height: 100%;
   }
-  /* Description MOBILE ----------------------------------------------------*/
-  .main-slider-content:hover .slider-description {
+  /* Description MOBILE ----------------------------------------------------*/.main-slider-content:hover .slider-description {
     opacity: 1;
   }
-  /* FILTERED ITEMS MOBILE ----------------------------------------------------*/
-  #filter-container {
+  /* FILTERED ITEMS MOBILE ----------------------------------------------------*/#filter-container {
     width: 252px;
     /* 712 + 20 gap */
+  
   }
   #filter-container figure {
     width: 252px;
@@ -290,20 +273,17 @@ px      68    160    252    */
   #filter-container figure figcaption .heading {
     font-size: 28px;
   }
-  /*  PAGE MOBILE ----------------------------------------------------*/
-  #page-content-sb {
+  /*  PAGE MOBILE ----------------------------------------------------*/#page-content-sb {
     width: 252px;
     margin-right: 0px;
   }
-  /* MOBILE COLUMNS ----------------------------------------------------*/
-  .entry-content .one-half,
+  /* MOBILE COLUMNS ----------------------------------------------------*/.entry-content .one-half,
   .entry-content .one-third,
   .entry-content .one-fourth {
     width: auto;
     margin-right: 0px;
   }
-  /*  BLOG MOBILE ----------------------------------------------------*/
-  #posts-list,
+  /*  BLOG MOBILE ----------------------------------------------------*/#posts-list,
   body.single #posts-list {
     width: 252px;
     margin-right: 0px;
@@ -382,8 +362,7 @@ px      68    160    252    */
     width: 252px;
     margin-top: 30px;
   }
-  /* PORTFOLIO MOBILE ----------------------------------------------------*/
-  #portfolio-content #project-box .info {
+  /* PORTFOLIO MOBILE ----------------------------------------------------*/#portfolio-content #project-box .info {
     width: 212px;
     padding-left: 20px;
     margin-right: 24px;
@@ -403,8 +382,7 @@ px      68    160    252    */
   .related-projects figure .thumb {
     width: 252px;
   }
-  /* WIDGET COLS MOBILE ----------------------------------------------------*/
-  .widget-cols > li {
+  /* WIDGET COLS MOBILE ----------------------------------------------------*/.widget-cols > li {
     width: 252px;
     margin-right: 0px;
     margin-bottom: 30px;
@@ -427,20 +405,17 @@ px      68    160    252    344    436    */
   .wrapper {
     width: 436px;
   }
-  /* LOGO WIDE MOBILE ----------------------------------------------------*/
-  #logo a {
+  /* LOGO WIDE MOBILE ----------------------------------------------------*/#logo a {
     display: block ;
     width: 436px;
   }
-  /* NAV WIDE MOBILE ----------------------------------------------------*/
-  #nav {
+  /* NAV WIDE MOBILE ----------------------------------------------------*/#nav {
     display: none;
   }
   #comboNav {
     display: block;
   }
-  /* CAROUSEL WIDE MOBILE ----------------------------------------------------*/
-  #ch-holder {
+  /* CAROUSEL WIDE MOBILE ----------------------------------------------------*/#ch-holder {
     display: none;
   }
   #cv-holder {
@@ -449,8 +424,7 @@ px      68    160    252    344    436    */
   .carousel-holder .carousel-heading span {
     margin: 0px 0px 22px 0px;
   }
-  /* SLIDER WIDE MOBILE ----------------------------------------------------*/
-  .lof-slidecontent,
+  /* SLIDER WIDE MOBILE ----------------------------------------------------*/.lof-slidecontent,
   .main-slider-content {
     width: 436px;
     height: 367px;
@@ -489,8 +463,7 @@ px      68    160    252    344    436    */
     width: 232px;
     height: 100%;
   }
-  /* FILTERED ITEMS WIDE MOBILE ----------------------------------------------------*/
-  #filter-container {
+  /* FILTERED ITEMS WIDE MOBILE ----------------------------------------------------*/#filter-container {
     width: 460px;
   }
   #filter-container figure {
@@ -498,13 +471,11 @@ px      68    160    252    344    436    */
     margin-right: 24px;
     float: left;
   }
-  /*  PAGE WIDE MOBILE ----------------------------------------------------*/
-  #page-content-sb {
+  /*  PAGE WIDE MOBILE ----------------------------------------------------*/#page-content-sb {
     width: 436px;
     margin-right: 0px;
   }
-  /*  BLOG WIDE MOBILE ----------------------------------------------------*/
-  #posts-list,
+  /*  BLOG WIDE MOBILE ----------------------------------------------------*/#posts-list,
   body.single #posts-list {
     width: 436px;
     margin-right: 0px;
@@ -583,8 +554,7 @@ px      68    160    252    344    436    */
     width: 436px;
     margin-top: 30px;
   }
-  /* PORTFOLIO WIDE MOBILE ----------------------------------------------------*/
-  #portfolio-content #project-box .info {
+  /* PORTFOLIO WIDE MOBILE ----------------------------------------------------*/#portfolio-content #project-box .info {
     width: 396px;
     padding-left: 20px;
     margin-right: 24px;
@@ -604,8 +574,7 @@ px      68    160    252    344    436    */
   .related-projects figure .thumb {
     width: 436px;
   }
-  /* WIDGET COLS WIDE MOBILE ----------------------------------------------------*/
-  .widget-cols > li {
+  /* WIDGET COLS WIDE MOBILE ----------------------------------------------------*/.widget-cols > li {
     width: 436px;
     margin-right: 0px;
   }

@@ -1,6 +1,4 @@
-/* Vars ----------------------------------------------------*/
-/* Mixins ----------------------------------------------------*/
-/* Video ------------------------------------------------------------*/
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* Video ------------------------------------------------------------*/
 .block .video-holder {
   margin: 0px;
 }
@@ -165,8 +163,7 @@
 .widget-block .sub-menu {
   padding-left: 9px;
 }
-/* SIDEBAR  ----------------------------------------------------*/
-#sidebar .cat-item a,
+/* SIDEBAR  ----------------------------------------------------*/#sidebar .cat-item a,
 #sidebar .page_item a {
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -176,7 +173,7 @@
 }
 #sidebar .cat-item a .post-counter,
 #sidebar .page_item a .post-counter {
-  color: #7c6a68;
+  color: #656360;
 }
 #sidebar .ads a {
   display: block;
@@ -191,6 +188,7 @@
 /* WIDGETS -----------------------------------------------*/
 .widget-cols {
   /* RECENT POSTS -----------------------------------------------*/
+
 }
 .widget-cols .cat-item a,
 .widget-cols .page_item a {

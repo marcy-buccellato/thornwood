@@ -1,7 +1,4 @@
-/* Vars ----------------------------------------------------*/
-/* Mixins ----------------------------------------------------*/
-/*  slider layout ----------------------------------------------------*/
-.lof-slidecontent,
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//*  slider layout ----------------------------------------------------*/.lof-slidecontent,
 .main-slider-content {
   width: 940px;
   height: 367px;
@@ -11,6 +8,7 @@
   overflow: hidden;
   height: 440px;
   /* Extra Space for the navigator 367 + 73 */
+
   /* Description ----------------------------------------------------*/
   /* Navigator ----------------------------------------------------*/
 }
@@ -81,7 +79,7 @@
   line-height: 1.5em;
 }
 .lof-slidecontent .slider-description p {
-  color: #7c6a68;
+  color: #dcd2be;
 }
 .lof-slidecontent .slider-description h4 {
   font-family: "Voltaire", Arial, Verdana, sans-serif;
@@ -94,7 +92,7 @@
   display: table;
   margin-top: 18px;
   padding: 3px;
-  background: #748d56;
+  background: #cb5432;
   color: #000;
 }
 .lof-slidecontent .main-slider-content:hover .slider-description {
@@ -122,19 +120,19 @@
 .lof-slidecontent .navigator-content .button-next {
   float: left;
   text-indent: -999px;
-  background: url(../img/arrow-right-dark.png) center center no-repeat #748d56;
+  background: url(../img/arrow-right-dark.png) center center no-repeat #cb5432;
 }
 .lof-slidecontent .navigator-content .button-previous {
   float: left;
   text-indent: -999px;
   right: 30px;
-  background: url(../img/arrow-left-dark.png) center center no-repeat #748d56;
+  background: url(../img/arrow-left-dark.png) center center no-repeat #cb5432;
 }
 .lof-slidecontent .navigator-content .button-control {
   float: left;
   text-indent: -999px;
   right: 60px;
-  background: url(../img/button-control.png) center center no-repeat #748d56;
+  background: url(../img/button-control.png) center center no-repeat #cb5432;
 }
 .lof-slidecontent .navigator-content .hover-stop,
 .lof-slidecontent .navigator-content .action-start {
@@ -166,7 +164,7 @@
   float: left;
   display: block;
   text-align: center;
-  background: #748d56;
+  background: #cb5432;
 }
 .lof-slidecontent .navigator-wrap-inner li img {
   -webkit-transition: all 0.3s ease;
@@ -185,19 +183,4 @@
 }
 .lof-slidecontent:hover .button-control {
   opacity: 1;
-}
-
-/* CUSTOM CSS MP 3/22/14 */
-/* Hide thumbnail slider nav under slider */
-.lof-slidecontent .navigator-content .button-next,
-.lof-slidecontent .navigator-content .button-previous {
-    opacity: 1;
-    bottom: 0px;
-    z-index: 199;
-}
-.lof-slidecontent .navigator-content .button-next {
-    left: 910px;
-}
-.lof-slidecontent .navigator-content .button-previous {
-    left: 0px;
 }

@@ -1,19 +1,17 @@
-/* Vars ----------------------------------------------------*/
-/* Mixins ----------------------------------------------------*/
-/* FORMS ------------------------------------------------------------*/
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* FORMS ------------------------------------------------------------*/
 #respond .heading {
   margin-bottom: 10px;
   padding-top: 0px;
   padding-bottom: 10px;
-  border-top: 0px solid #7c6a68;
-  border-bottom: 5px solid #7c6a68;
+  border-top: 0px solid #656360;
+  border-bottom: 5px solid #656360;
 }
 #reply-title {
   margin-bottom: 10px;
   padding-top: 0px;
   padding-bottom: 10px;
-  border-top: 0px solid #7c6a68;
-  border-bottom: 5px solid #7c6a68;
+  border-top: 0px solid #656360;
+  border-bottom: 5px solid #656360;
 }
 #commentform,
 #contactForm,
@@ -78,7 +76,7 @@
 #commentform input[type="submit"],
 #contactForm input[type="button"] {
   width: auto;
-  color: #748d56;
+  color: #cb5432;
   font-size: 14px;
   background: #f1f1f1;
   padding: 3px 10px;
@@ -131,7 +129,7 @@
   padding: 5px 10px;
   margin-bottom: 40px;
   background: rgba(0, 0, 0, 0.1);
-  color: #7c6a68;
+  color: #656360;
 }
 #commentform .form-allowed-tags {
   font-size: 12px;
