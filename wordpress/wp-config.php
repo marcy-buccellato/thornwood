@@ -29,8 +29,6 @@ if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Go
     define('DB_HOST', '127.0.0.1');
     define('DB_USER', 'root');
     define('DB_PASSWORD', 'root');
-    define('DB_NAME', 'wordpress_db');
-
 }
 
 // Determine HTTP or HTTPS, then set WP_SITEURL and WP_HOME
@@ -40,6 +38,8 @@ if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER
 } else {
     $protocol_to_use = 'http://';
 }
+define( 'WP_SITEURL', $protocol_to_use . $_SERVER['HTTP_HOST']);
+define( 'WP_HOME', $protocol_to_use . $_SERVER['HTTP_HOST']);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -93,18 +93,6 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
-
-### BEGIN CUSTOM SETTINGS: EDITED BY MP
-# Default is /wordpress which will not work if wordpress files are not
-# are in website root path. 
-define( 'WP_SITEURL', $protocol_to_use . $_SERVER['HTTP_HOST']);
-define( 'WP_HOME', $protocol_to_use . $_SERVER['HTTP_HOST']);
-# Default is 'twentyeleven' which doesn't exist in the latest wordpress
-# install - I'm not sure where that is being set, but just override it here.
-define('WP_DEFAULT_THEME', 'twentyfourteen');
-define( 'WP_MEMORY_LIMIT', '96M' );
-define( 'WP_MAX_MEMORY_LIMIT', '256M' );
-### END CUSTOM SETTINGS: EDITED BY MP
 
 /* That's all, stop editing! Happy blogging. */
 
