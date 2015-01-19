@@ -1,9 +1,9 @@
 === Simple Custom CSS ===
-Contributors: johnregan3
+Contributors: johnregan3, dvankooten
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAG2XC69ZYADQ
 Tags: css, styles, custom css, custom
 Requires at least: 3.0.1
-Tested up to: 3.8.1
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,19 +14,20 @@ Add Custom CSS to your WordPress site without any hassles.
 
 An easy-to-use WordPress Plugin to add custom CSS styles that override Plugin and Theme default styles. This plugin is designed to meet the needs of administrators who would like to add their own CSS to their WordPress website.
 
-**Now Allows Double Quotes in CSS Selectors!**
+**New in Version 3.2**
 
-**Now Supports Subdirectory Installs!**
+- Improved architecture to reduce the number of queries (Thanks, dvankooten!)
 
 **Features**
 
+- Active Plugin Support
+- Useful Code Syntax Highlighter
 - No configuration needed
 - Simple interface built on WordPress UI
 - Virtually no impact on site performance
-- No JavaScript files or complicated database queries
-- Generates no CSS files
-- Extremely lightweight (~7KB)
+- No complicated database queries
 - Thorough documentation
+- Allows Administrator access on Multisite
 
 == Installation ==
 
@@ -45,8 +46,6 @@ Install Simple Custom CSS just as you would any other WP Plugin:
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
 == Frequently Asked Questions ==
-
-Find more help at the [Simple Custom CSS Wiki](https://github.com/johnregan3/simple-custom-css/wiki "Simple Custom CSS Wiki")
 
 = Will this Plugin work on my WordPress.com website? =
 
@@ -83,6 +82,21 @@ Please check your CSS at the [W3C CSS Validation Service](http://jigsaw.w3.org/c
 1. The Simple Custom CSS Administration Screen
 
 == Changelog ==
+
+= 3.2 =
+* Tested for compatibility with WP 4.1
+* Improved architecture to reduce the number of queries (Thanks, dannyvankooten!)
+
+= 3.0.1 =
+* Tested for compatibility with WP 3.9.1
+* Sidebar "Update CSS" button added
+
+= 3.0 =
+* Added Sytnax Highlighter
+* Removed Need for "Allow Quotation Marks" checkbox
+* Removed plugin attribution text
+* Allow Administrator access on multisite
+* Minor styling changes.  Thanks @kucrut!
 
 = 2.5 =
 * Fixed issue with WP installs in subdirectories.  Thanks @lopo!
@@ -121,6 +135,15 @@ Instead of using print_scripts to insert the CSS directly into the HEAD, CSS sty
 * Inital Release
 
 == Upgrade Notice ==
+
+= 3.2 =
+Tested for compatibility with WP 4.1.  Improved architecture to reduce the number of queries
+
+= 3.0.1 =
+Tested for compatibility with WP 3.9.1.  Sidebar "Update CSS" button added.
+
+= 3.0 =
+Added new Syntax highlighter, removed attribution text and need for "Allow Quotation Marks" option.
 
 = 2.5 =
 Fixed issue with WP installs in subdirectories.  Thanks @lopo!

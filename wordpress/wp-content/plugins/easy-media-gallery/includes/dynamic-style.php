@@ -17,6 +17,7 @@ $marginhlf = $mrgnbox / 2;
 $theoptstl = easy_get_option( 'easymedia_frm_size' );
 $globalwidth = stripslashes( $theoptstl[ 'width' ] );
 $pattover = easy_get_option( 'easymedia_style_pattern' );
+$overcol = easy_get_option( 'easymedia_overlay_col' );
 $ttlcol = easy_get_option( 'easymedia_ttl_col' );
 $thumbhov = ucfirst( easy_get_option( 'easymedia_hover_style' ) ) . '.png';
 $thumbhov = plugins_url( 'css/images/' . $thumbhov . '', dirname(__FILE__) );
@@ -31,7 +32,7 @@ $borderrgbaopcty = easy_get_option( 'easymedia_thumb_border_opcty' ) / 100;
 echo '.view {margin-bottom:'.$mrgnbox.'px; margin-right:'.$marginhlf.'px; margin-left:'.$marginhlf.'px;}';
 echo '.da-thumbs article.da-animate p{color:'.$ttlcol.' !important;}';
 if ( easy_get_option( 'easymedia_disen_icocol' ) == '1' ) {
-echo 'span.link_post, span.zoom {background-color:'.$thumbiconcol.';}';
+echo 'span.link_post, span.zoom, span.zooma {background-color:'.$thumbiconcol.';}';
 }
 
 if ( easy_get_option( 'easymedia_disen_hovstyle' ) == '1' ) {
@@ -60,41 +61,46 @@ if ( $pattover != '' || $pattover != 'no_pattern' ) {
 echo '#mbOverlay {background: url(../css/images/patterns/'.$pattover.'); background-repeat: repeat;}';
 }
 
+// Thumbnails Title Background color @since 1.2.61
+echo '.da-thumbs article.da-animate p { background: rgba('.easymedia_hex2rgb( easy_get_option( 'easymedia_ttl_back_col' ) ).',0.5) !important;}';
+
 // IE <8 Handle
 
 		preg_match( '/MSIE (.*?);/', $_SERVER['HTTP_USER_AGENT'], $matches );
-		if ( count( $matches )>1 && $disenbor == 1 ){
-			$version = explode(".", $matches[1]);
-			switch(true){
-				case ( $version[0] <= '8' ):
-				echo '.view {border: 1px solid '.$shdcol.';}';
-				echo '.iehand {border: '.$imgborder.'px solid '.$frmcol.';}';
-				echo '.da-thumbs article{position: absolute; background-image:url('.$thumbhov.'); background-repeat:repeat; width: 100%; height: 100%;}';
-			break; 
+		if ( isset($matches) ) {
+			if ( count( $matches )>1 && $disenbor == 1 ){
+				$version = explode(".", $matches[1]);
+				switch(true){
+					case ( $version[0] <= '8' ):
+					echo '.view {border: 1px solid '.$shdcol.';}';
+					echo '.iehand {border: '.$imgborder.'px solid '.$frmcol.';}';
+					echo '.da-thumbs article{position: absolute; background-image:url('.$thumbhov.'); background-repeat:repeat; width: 100%; height: 100%;}';
+					break; 
 			  
-				case ( $version[0] > '8' ):
-
-( $disenbor == 1 ) ? $addborder = '.view {border: '.$imgborder.'px solid rgba('.$borderrgba.','.$borderrgbaopcty.');}' : $addborder = '';
+					case ( $version[0] > '8' ):
+						( $disenbor == 1 ) ? $addborder = '.view {border: '.$imgborder.'px solid rgba('.$borderrgba.','.$borderrgbaopcty.');}' : $addborder = '';
 echo $addborder; 			  
 echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','.$thumbhovcolopcty.'); background-repeat:repeat; width: 100%; height: 100%;}';			  
 			  
-			break; 			  
+					break; 			  
 			  
 			  
-			  default:
+			 	  	default:
+			  		break;
+				}
 			}
-		}
 		
-		else if ( count( $matches )>1 && $disenbor != '1' ) {
-			echo '.da-thumbs article{position: absolute; background-image:url('.$thumbhov.'); background-repeat:repeat; width: 100%; height: 100%;}';
-			}
+				else if ( count( $matches )>1 && $disenbor != '1' ) {
+					echo '.da-thumbs article{position: absolute; background-image:url('.$thumbhov.'); background-repeat:repeat; width: 100%; height: 100%;}';
+					}
 		  
-		else {
-				echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','.$thumbhovcolopcty.'); background-repeat:repeat; width: 100%; height: 100%;}';
-			} 
-			
+				else {
+					echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','.$thumbhovcolopcty.'); background-repeat:repeat; width: 100%; height: 100%;}';
+					} 
+				}
+				
 // Magnify Icon
-if ( easy_get_option( 'easymedia_mag_icon' ) != '' ) {	
+if ( easy_get_option( 'easymedia_mag_icon' ) != '' && $disenico == 1 ) {	
 echo '	
 span.zoom{
 background-image:url(../css/images/magnify/'.easy_get_option( 'easymedia_mag_icon' ).'.png); background-repeat:no-repeat; background-position:center;
